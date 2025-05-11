@@ -1,8 +1,8 @@
 'use client';
 
 import { useState } from 'react';
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -63,7 +63,7 @@ const categories = [
   '像素藝術'
 ];
 
-export default function Home() {
+export default function PortfolioPage() {
   const [selectedCategory, setSelectedCategory] = useState('全部');
 
   // Filter projects based on selected category
@@ -165,4 +165,4 @@ export default function Home() {
       <Footer />
     </main>
   );
-}
+} 
