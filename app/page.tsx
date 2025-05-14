@@ -42,7 +42,7 @@ const projects = [
     description: 'Image2pixel 应用的iOS版本，轻松将您的图片转换为像素风格艺术作品。提供多种参数调整，满足个性化创作需求。',
     imageUrl: '/Image2pixel-ios.jpeg',
     tags: ['iOS應用', '像素藝術', '图像处理'],
-    externalLink: null // Link removed, will fall back to internal portfolio page
+    externalLink: 'https://www.pixelart.tech'
   },
   {
     id: 'pix32-font',
